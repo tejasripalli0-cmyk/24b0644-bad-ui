@@ -1,1 +1,36 @@
+body {
+    text-align: center;
+    font-family: Comic Sans MS;
+    background: hotpink;
+    padding-top: 100px;
+}
 
+.container {
+    width: 500px;
+    height: 50px;
+    border: 5px dashed yellow;
+    background: cyan;
+    margin: auto;
+}
+
+#bar {
+    width: 0%;
+    height: 100%;
+    background: lime;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    transform: rotate(-3deg);
+}
+
+#message {
+    font-size: 25px;
+    color: red;
+}
+
+body:hover {
+    transform: rotate(1deg);
+}
